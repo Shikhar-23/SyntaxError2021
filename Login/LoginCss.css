@@ -45,8 +45,14 @@
 	border-radius: 30px;
 	transition: 0.5s;
 }
-.input-group{
+.input-group-log{
 	top: 180px;
+	position: absolute;
+	width: 280px;
+	transition: 0.5s;
+}
+.input-group-reg{
+	top: 90px;
 	position: absolute;
 	width: 280px;
 	transition: 0.5s;
