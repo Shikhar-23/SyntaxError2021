@@ -12,16 +12,16 @@
 				<button type="button" class="toggle-btn" onclick="login()">Log In</button>
 				<button type="button" class="toggle-btn" onclick="register()">Register</button>
 			</div>
-			<form id="login" class="input-group">
+			<form action = '/login' method = 'GET' id="login" class="input-group">
 				<input type="text" class="input-field" placeholder="User ID" required>
 				<input type="text" class="input-field" placeholder="Password" required>
 				<input type="checkbox" class="check-box"><span>  Remember Password</span>
 				<button type="submit" class="submit-btn"> Log In</button>
 			</form>
-			<form id="register" class="input-group">
-				<input type="text" class="input-field" placeholder="Email ID" required>
-				<input type="text" class="input-field" placeholder="User ID" required>
-				<input type="text" class="input-field" placeholder="Password" required>
+			<form action = '/addname' method = "POST" id = "register" class="input-group" >
+				<input name = "MailID" type="text" class="input-field" placeholder="Email ID" required>
+				<input name = "Username" type="text" class="input-field" placeholder="User ID" required>
+				<input name = "Password"type="text" class="input-field" placeholder="Password" required>
 				<input type="checkbox" class="check-box"><span>  I agree to the T&C</span>
 				<button type="submit" class="submit-btn"> Register</button>
 			</form>
