@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: cursive;
+}
+.start{
+	height: 200%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(backk.jpg);
+	background-size: contain;
+	background-position: right top;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.profile{
+	width: 15%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: 5px 0;
+	background: #fff44f;
+	border: 0;
+	outline: none;
+	position: relative;
+	border-radius: 20px;
+}
+.my_questions{
+	width: 15%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: 5px 0;
+	background: #fff44f;
+	border: 0;
+	outline: none;
+	position: relative;
+	border-radius: 20px;
+}
+.search-bar{
+	width:540px;
+	height:50px;
+	position: sticky;
+	background-color: #ffffff;
+	padding: 100px;
+}
+.question-box{
+	width:540px;
+	height:200px;
+	position: static;
+	margin:6% auto;
+	padding: 5px;
+}
+.submit-btn-1{
+	width: 25%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: 5px 400px;
+	background: #fff44f;
+	border: 0;
+	outline: none;
+	position: relative;
+	border-radius: 20px;
+}
+.submit-btn-2{
+	width: 25%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: 5px 400px;
+	background: #fff44f;
+	border: 0;
+	outline: none;
+	position: relative;
+	border-radius: 20px;
+}
